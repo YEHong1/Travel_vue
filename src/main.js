@@ -14,6 +14,7 @@ import './assets/styles/reset.css'
 import './assets/styles/border.css'
 //rem适配文件
 import './assets/js/lib-flexible.min'
+import './assets/styles/iconfont.css'
 
 Vue.config.productionTip = false;
 

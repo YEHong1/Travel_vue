@@ -1,21 +1,19 @@
 <template>
     <div>
-        <div>Home</div>
-        <router-link id="link" to="/list">ToList</router-link>
-        <div id="box"></div>
+        <HomeHeader/>
     </div>
 </template>
 
 <script>
+    import HomeHeader from "./components/HomeHeader";
     export default {
-        name: "Home"
+        name: "Home",
+        components: {
+            HomeHeader
+        }
     }
 </script>
 
 <style scoped>
-    #box{
-        width: 10rem;
-        height: 5rem;
-        background-color: skyblue;
-    }
+
 </style>
