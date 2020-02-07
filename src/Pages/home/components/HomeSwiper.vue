@@ -49,8 +49,10 @@
     }
 
     .swiper-div1, .swiper-div2, .swiper-div3{
+        overflow: hidden;
         width: 10rem;
-        height: 3rem;
+        height: 0;
+        padding-bottom: 30%;
     }
 
     .swiper-div1{background-color: cornflowerblue}
