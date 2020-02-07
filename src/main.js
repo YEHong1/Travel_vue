@@ -16,6 +16,12 @@ import './assets/styles/border.css'
 import './assets/js/lib-flexible.min'
 import './assets/styles/iconfont.css'
 
+//轮播图
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+//使用别人的组件时，会用到 Vue.use()
+Vue.use(VueAwesomeSwiper, /* { default global options } */);
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
